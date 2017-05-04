@@ -4,8 +4,7 @@ node_js:
 
 script:
   - echo "Deploying!"
-  - npm install -g npm@latest
-  - rm -rf node_modules
+  - npm install
   - npm run build
 
 install:
