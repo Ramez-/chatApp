@@ -60,7 +60,7 @@ class App extends Component {
 
     return (
       <div className="App">
-                   <button onClick={this.loginWithFacebook.bind(this)}>Login with Facebook</button><button onClick={this.logOut.bind(this)}>Log Out</button>
+       <button onClick={this.loginWithFacebook.bind(this)}>Login with Facebook</button><button onClick={this.logOut.bind(this)}>Log Out</button>
 
      <Messages />
 
