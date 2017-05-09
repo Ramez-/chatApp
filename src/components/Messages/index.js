@@ -25,7 +25,7 @@ class Messages extends Component {
     });
   }
 
-   componentDidMount() {
+   componentDidMount(){
 
     const rootRef = firebase.database().ref('message');
     //const messageRef = rootRef.child('one');
